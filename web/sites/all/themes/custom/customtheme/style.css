@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.main {
+  max-width: 1300px;
+  margin: auto;
+}
+
+svg {
+  color: #074581;
+}
+
+#header {
+  background-color: #074581;
+  border-bottom: 3px red solid;
+}
+#header div.navigation {
+  margin-right: 0;
+}
+
+div.section.clearfix {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: space-between;
+}
+div.section.clearfix div.logo-site-slogan-and-name {
+  display: flex;
+}
+div.section.clearfix div#site-slogan {
+  color: white;
+  font-size: 1.2rem;
+}
+div.section.clearfix div#site-name {
+  margin: 0;
+}
+div.section.clearfix div#site-name a {
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+div.section.clearfix ul.links.clearfix {
+  display: flex;
+}
+div.section.clearfix ul.links.clearfix li {
+  list-style: none;
+}
+div.section.clearfix ul.links.clearfix li a {
+  padding: 0 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+div#image.clearfix {
+  margin-top: -1.6rem;
+}
+div#image.clearfix img {
+  width: 100%;
+}
+
+div.region.region-contact {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #074581;
+}
+div.region.region-contact div#block-block-3 .content p {
+  margin: 0.5rem;
+}
+
+div#block-views-nos-metiers-block div.content {
+  width: 80%;
+  margin: auto;
+}
+div#block-views-nos-metiers-block h2 {
+  font-size: 1.8rem;
+  padding-left: 2rem;
+  position: relative;
+}
+div#block-views-nos-metiers-block h2::before {
+  content: "";
+  position: absolute;
+  width: 1.8rem;
+  top: 40%;
+  left: 0;
+  border-bottom: 3px solid red;
+}
+div#block-views-nos-metiers-block div.view.view-nos-metiers .view-content {
+  display: flex;
+  justify-content: space-between;
+}
+div#block-views-nos-metiers-block div.view.view-nos-metiers .view-content div.views-row-1 a {
+  display: block;
+  background: url("../../../../default/files/images/family.svg") no-repeat 50%;
+}
+div#block-views-nos-metiers-block div.view.view-nos-metiers .view-content div.views-row-2 a {
+  display: block;
+  background: url("../../../../default/files/images/269947.svg") no-repeat 50%;
+  background-size: 70%;
+}
+div#block-views-nos-metiers-block div.view.view-nos-metiers .view-content div.views-row-3 a {
+  display: block;
+  background: url("../../../../default/files/images/trading.svg") no-repeat 50%;
+  background-size: 70%;
+}
+div#block-views-nos-metiers-block div.view.view-nos-metiers .view-content span.field-content a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 2rem;
+  padding-top: 13rem;
+}
+
+div#block-views-actu-block h2 {
+  font-size: 1.8rem;
+  padding-left: 2rem;
+  position: relative;
+}
+div#block-views-actu-block h2::before {
+  content: "";
+  position: absolute;
+  width: 1.8rem;
+  top: 40%;
+  left: 0;
+  border-bottom: 3px solid red;
+}
+
+div.view-id-actu div.view-content {
+  display: flex;
+}
+div.view-id-actu div.view-content div.views-row div.node-actuality h2 {
+  display: none;
+}
+div.view-id-actu div.view-content div.views-row div.node-actuality div.field-name-field-title {
+  font-weight: bold;
+  margin-right: 7rem;
+}
+div.view-id-actu div.view-content div.views-row div.node-actuality div.field-name-field-date-publication {
+  color: red;
+  margin-top: 1rem;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+div.view-id-actu div.view-content div.views-row div.node-actuality div.field-name-body {
+  margin-right: 5rem;
+  font-size: 1.2rem;
+}
+div.view-id-actu ul.links.inline {
+  display: none;
+}
+
+div#footer-wrapper {
+  background-color: #074581;
+}
+div#footer-wrapper div.region-footer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+div#footer-wrapper div.region-footer li {
+  list-style: none;
+}
+div#footer-wrapper div.region-footer li a {
+  color: white;
+  text-decoration: none;
+  padding: 0 1rem;
+}
+div#footer-wrapper div.region-footer div#block-block-5 div.content p:first-of-type {
+  font-weight: bold;
+}
+div#footer-wrapper div.region-footer div#block-block-5 a {
+  color: white;
+  text-decoration: none;
+}
+div#footer-wrapper div.region-footer div#block-menu-menu-l-tude ul {
+  padding: 0;
+}
+div#footer-wrapper div.region-footer div#block-menu-menu-l-tude ul .leaf {
+  padding: 0.5rem 0;
+  margin: 0;
+}
+div#footer-wrapper div.region-footer div#block-menu-menu-footer-menu ul {
+  padding: 0;
+}
+div#footer-wrapper div.region-footer div#block-menu-menu-footer-m ul li {
+  font-size: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */

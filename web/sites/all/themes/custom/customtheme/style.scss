@@ -1,0 +1,267 @@
+//RESET
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+  max-width: 1300px;
+  margin: auto;
+}
+
+
+//variable
+$colorWhite: white;
+$headerColor: #074581;
+$colorRed: red;
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+svg {
+  color: $headerColor;
+}
+
+//HEADER
+#header {
+  background-color: $headerColor;
+  border-bottom: 3px $colorRed solid;
+
+  div.navigation {
+    margin-right: 0;
+  }
+}
+
+div.section.clearfix {
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: space-between;
+
+  div.logo-site-slogan-and-name {
+    display: flex;
+  }
+
+  div#site-slogan {
+    color: $colorWhite;
+    font-size: 1.2rem;
+  }
+
+  div#site-name {
+    margin: 0;
+
+    a {
+      text-decoration: none;
+      color: $colorWhite;
+      font-size: 2rem;
+    }
+  }
+
+  ul.links.clearfix {
+    display: flex;
+
+    li {
+      list-style: none;
+
+      a {
+        padding: 0 1rem;
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+}
+
+//IMAGE
+
+div#image.clearfix {
+  margin-top: -1.6rem;
+
+  img {
+    width: 100%;
+  }
+}
+
+div.region.region-contact {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
+  font-weight: bold;
+  color: $headerColor;
+
+  div#block-block-3 .content p {
+    margin: .5rem;
+  }
+}
+
+//TAXONOMY
+div#block-views-nos-metiers-block {
+  div.content {
+    width: 80%;
+    margin: auto;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    padding-left: 2rem;
+    position: relative;
+  }
+
+  h2::before {
+    content: '';
+    position: absolute;
+    width: 1.8rem;
+    top: 40%;
+    left: 0;
+    border-bottom: 3px solid $colorRed;;
+  }
+
+  div.view.view-nos-metiers .view-content {
+    display: flex;
+    justify-content: space-between;
+
+    div.views-row-1 a {
+      display: block;
+      background: url("../../../../default/files/images/family.svg") no-repeat 50%;
+    }
+
+    div.views-row-2 a {
+      display: block;
+      background: url("../../../../default/files/images/269947.svg") no-repeat 50%;
+      background-size: 70%;
+    }
+
+    div.views-row-3 a {
+      display: block;
+      background: url("../../../../default/files/images/trading.svg") no-repeat 50%;
+      background-size: 70%;
+    }
+
+    span.field-content a {
+      text-decoration: none;
+      color: inherit;
+      font-size: 2rem;
+      padding-top: 13rem
+    }
+  }
+}
+
+//ACTUALITY
+div#block-views-actu-block {
+  h2 {
+    font-size: 1.8rem;
+    padding-left: 2rem;
+    position: relative;
+  }
+
+  h2::before {
+    content: '';
+    position: absolute;
+    width: 1.8rem;
+    top: 40%;
+    left: 0;
+    border-bottom: 3px solid $colorRed;;
+  }
+}
+
+div.view-id-actu {
+  div.view-content {
+    display: flex;
+
+    div.views-row {
+      div.node-actuality {
+        h2 {
+          display: none;
+        }
+
+        div.field-name-field-title {
+          font-weight: bold;
+          margin-right: 7rem;
+        }
+
+        div.field-name-field-date-publication {
+          color: $colorRed;
+          margin-top: 1rem;
+          font-weight: bold;
+          font-size: 1.3rem;
+        }
+
+        div.field-name-body {
+          margin-right: 5rem;
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
+  ul.links.inline {
+    display: none;
+  }
+}
+
+//FOOTER
+
+
+div#footer-wrapper {
+  background-color: $headerColor;
+
+
+  div.region-footer {
+    display: flex;
+    justify-content: space-between;
+    color: $colorWhite;
+
+    li {
+      list-style: none;
+
+      a {
+        color: $colorWhite;
+        text-decoration: none;
+        padding: 0 1rem;
+      }
+    }
+
+    div#block-block-5 {
+      div.content p:first-of-type {
+        font-weight: bold;
+      }
+
+      a {
+        color: $colorWhite;
+        text-decoration: none;
+      }
+    }
+
+    div#block-menu-menu-l-tude {
+      ul {
+        padding: 0;
+
+        .leaf {
+          padding: .5rem 0;
+          margin: 0;
+        }
+      }
+    }
+
+    div#block-menu-menu-footer-menu {
+      ul {
+        padding: 0
+      }
+    }
+
+    div#block-menu-menu-footer-m {
+      ul {
+        li {
+          font-size: 2rem;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+

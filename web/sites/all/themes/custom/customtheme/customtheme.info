@@ -1,0 +1,15 @@
+name = customtheme
+description = My theme custom
+package = Core
+version = Version
+core = 7.x
+
+stylesheets[all][] = style.css
+
+regions[header] = header
+regions[image] = image
+regions[contact] = contact
+regions[taxonomy] = taxonomy
+regions[actuality] = actuality
+regions[map] = map
+regions[footer] = footer
