@@ -102,10 +102,32 @@ div#block-views-nos-metiers-block div.view.view-nos-metiers .view-content div.vi
   display: block;
   background: url("../../../../default/files/images/family.svg") no-repeat 50%;
 }
+div#block-views-nos-metiers-block div.view.view-nos-metiers .view-content div.views-row-1:after {
+  content: " ";
+  background-color: red;
+  height: 80%;
+  width: 0.2%;
+  rotation: 40deg;
+  position: absolute;
+  top: 20%;
+  transform: rotate(40deg);
+  left: 30%;
+}
 div#block-views-nos-metiers-block div.view.view-nos-metiers .view-content div.views-row-2 a {
   display: block;
   background: url("../../../../default/files/images/269947.svg") no-repeat 50%;
   background-size: 70%;
+}
+div#block-views-nos-metiers-block div.view.view-nos-metiers .view-content div.views-row-2:after {
+  content: " ";
+  background-color: red;
+  height: 80%;
+  width: 0.2%;
+  rotation: 40deg;
+  position: absolute;
+  top: 20%;
+  transform: rotate(40deg);
+  left: 70%;
 }
 div#block-views-nos-metiers-block div.view.view-nos-metiers .view-content div.views-row-3 a {
   display: block;
@@ -159,6 +181,10 @@ div.view-id-actu ul.links.inline {
 
 div#footer-wrapper {
   background-color: #074581;
+  position: relative;
+}
+div#footer-wrapper div#block-block-6 {
+  padding-right: 1rem;
 }
 div#footer-wrapper div.region-footer {
   display: flex;
@@ -173,12 +199,26 @@ div#footer-wrapper div.region-footer li a {
   text-decoration: none;
   padding: 0 1rem;
 }
+div#footer-wrapper div.region-footer div#block-block-5 {
+  flex-grow: 2;
+}
 div#footer-wrapper div.region-footer div#block-block-5 div.content p:first-of-type {
   font-weight: bold;
 }
 div#footer-wrapper div.region-footer div#block-block-5 a {
   color: white;
   text-decoration: none;
+}
+div#footer-wrapper div.region-footer div#block-block-5:after {
+  content: " ";
+  background-color: white;
+  height: 80%;
+  width: 0.2%;
+  rotation: 40deg;
+  position: absolute;
+  top: 10%;
+  transform: rotate(40deg);
+  left: 65%;
 }
 div#footer-wrapper div.region-footer div#block-menu-menu-l-tude ul {
   padding: 0;

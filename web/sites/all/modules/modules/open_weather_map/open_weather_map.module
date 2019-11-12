@@ -13,6 +13,7 @@ function open_weather_map_menu()
     'page callback' => 'drupal_get_form',
     'page arguments' => array('weather_admin_settings'),
     'access arguments' => array('administer site configuration'),
+
   );
   $items['weather/%'] = array(
     'title' => 'open weather',

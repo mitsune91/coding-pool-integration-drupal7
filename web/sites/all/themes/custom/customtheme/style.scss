@@ -127,10 +127,34 @@ div#block-views-nos-metiers-block {
       background: url("../../../../default/files/images/family.svg") no-repeat 50%;
     }
 
+    div.views-row-1:after {
+      content: " ";
+      background-color: $colorRed;
+      height: 80%;
+      width: .2%;
+      rotation: 40deg;
+      position: absolute;
+      top: 20%;
+      transform: rotate(40deg);
+      left: 30%;
+    }
+
     div.views-row-2 a {
       display: block;
       background: url("../../../../default/files/images/269947.svg") no-repeat 50%;
       background-size: 70%;
+    }
+
+    div.views-row-2:after {
+      content: " ";
+      background-color: $colorRed;
+      height: 80%;
+      width: .2%;
+      rotation: 40deg;
+      position: absolute;
+      top: 20%;
+      transform: rotate(40deg);
+      left: 70%;
     }
 
     div.views-row-3 a {
@@ -206,10 +230,15 @@ div.view-id-actu {
 
 div#footer-wrapper {
   background-color: $headerColor;
+  position: relative;
 
+  div#block-block-6 {
+    padding-right: 1rem;
+  }
 
   div.region-footer {
     display: flex;
+
     justify-content: space-between;
     color: $colorWhite;
 
@@ -224,14 +253,29 @@ div#footer-wrapper {
     }
 
     div#block-block-5 {
+      flex-grow: 2;
+
       div.content p:first-of-type {
         font-weight: bold;
+
       }
 
       a {
         color: $colorWhite;
         text-decoration: none;
       }
+    }
+
+    div#block-block-5:after {
+      content: " ";
+      background-color: $colorWhite;
+      height: 80%;
+      width: .2%;
+      rotation: 40deg;
+      position: absolute;
+      top: 10%;
+      transform: rotate(40deg);
+      left: 65%;
     }
 
     div#block-menu-menu-l-tude {
